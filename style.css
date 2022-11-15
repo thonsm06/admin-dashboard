@@ -1,0 +1,135 @@
+* {
+    box-sizing: border-box;
+}
+body{
+    
+    padding: 0;
+    margin: 0;
+    display: grid;
+    grid-template-columns: 1fr 5fr;
+    grid-template-rows: 1fr 5fr;
+    --green: rgb(17, 85, 2);
+}
+
+header {
+    grid-column: 2 / 3;
+    display: grid;
+    grid-template-columns: 2fr 1fr;
+    grid-template-rows: 1fr 2fr;
+    padding: 15px 25px;
+}
+.searchbar {
+    display: flex;
+    align-items: center;
+    gap: 20px;
+}
+#submit {
+    border: none;
+}
+.search {
+    flex: 1;
+    display: flex;
+    height: 2rem;
+}
+#search {
+    background-color: aliceblue;
+    border: none;
+    border-radius: 1rem;
+    flex: 1;
+}
+.topright {
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+}
+.bottomleft {
+    display: flex;
+    gap: 20px;
+    align-items: center;
+}
+.bottomleft img {
+
+    /*flex: 0 0 auto;*/
+    /*max-width: 100%;
+    height: auto;*/
+}
+.buttons {
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+
+}
+.buttons button {
+    background-color: var(--green);
+    color: white;
+    border: none;
+    border-radius: 2rem;
+    font-size: 1.1rem;
+    font-weight: bold;
+    padding: 15px;
+    width: 120px;
+
+}
+main {
+    background-color: rgb(241, 241, 241);
+    grid-column: 2 / 3;
+    display: grid;
+    grid-template-columns: 3fr 1fr;
+    padding: 30px;
+    gap: 30px;
+}
+.projects.cards {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 30px;
+}
+
+.card {
+    background-color: white;
+    border-radius: 10px;
+    display: grid;
+    grid-template-rows: 3fr 1fr;
+    padding: 20px;
+}
+.card .icons {
+    display: flex;
+    justify-content: flex-end;
+    gap: 20px;
+}
+.card svg {
+    width: 1.5rem;
+}
+.updates ul{
+    background-color: white;
+    border-radius: 10px;
+    padding: 20px;
+    list-style-type: none;
+}
+.trending ul{
+    background-color: white;
+    border-radius: 10px;
+    padding: 20px;
+}
+.trending li {
+    display: grid;
+    grid-template-columns: 1fr 3fr;
+}
+
+
+aside {
+    background-color: var(--green);
+    color: white;
+    grid-row: 1 / 3;
+    display: grid;
+    grid-template-rows: 1fr 4fr 4fr;
+    
+}
+
+aside h1 {
+    align-self: center;
+    
+}
+
+aside li {
+    font-size: 1.5rem;
+}
