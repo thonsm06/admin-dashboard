@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.1//EN" "http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd">
+<svg width="100%" height="100%" viewBox="0 0 48 48" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" xml:space="preserve" xmlns:serif="http://www.serif.com/" style="fill-rule:evenodd;clip-rule:evenodd;stroke-linejoin:round;stroke-miterlimit:2;">
+    <g id="chat_bubble_FILL0_wght400_GRAD0_opsz48.svg" transform="matrix(1,0,0,1,24,24)">
+        <g transform="matrix(1,0,0,1,-24,-24)">
+            <path d="M4,44L4,7C4,6.233 4.3,5.542 4.9,4.925C5.5,4.308 6.2,4 7,4L41,4C41.767,4 42.458,4.308 43.075,4.925C43.692,5.542 44,6.233 44,7L44,33C44,33.767 43.692,34.458 43.075,35.075C42.458,35.692 41.767,36 41,36L12,36L4,44ZM7,36.75L10.75,33L41,33L41,7L7,7L7,36.75ZM7,7L7,36.75L7,7Z" style="fill-rule:nonzero;"/>
+        </g>
+    </g>
+</svg>
